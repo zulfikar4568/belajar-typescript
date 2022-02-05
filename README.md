@@ -3,7 +3,7 @@
  <h1 align="center"><b>Typescript Tutorial</b></h1>
 </p>
 
-## Install Typescript
+# Install Typescript
 ```bash
 npm --version
 
@@ -15,9 +15,7 @@ tsc --version
 
 ```
 
-Untuk dokumentasi di sini ([Praktek Typescript](./Script.md))
-
-## Menjalankan Typescript script
+# Menjalankan Typescript script
 Buka terminal 1
 ```bash
 npm run tsc
