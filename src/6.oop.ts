@@ -125,7 +125,7 @@ export class User {
 // admin.email = 'admin@gmail.com';
 // console.log(admin.email);
 
-/****************************************************************Properti dan Static Method********************************************************************* */
+/****************************************************************Properti dan Method Static********************************************************************* */
 // Properti atau method yang dapat langsung di akses dari kelas itu sendiri tanpa perlu di instansiasi terlebih dahulu
 
 class Admin extends User {
