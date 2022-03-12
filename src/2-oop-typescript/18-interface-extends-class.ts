@@ -23,5 +23,4 @@ class Hiu implements HiuInterface {
   swim(): void {
     console.log('berenang');
   }
-
 }
