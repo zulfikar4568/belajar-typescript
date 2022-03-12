@@ -6,15 +6,15 @@
   "scripts": {
     "tsc": "rm -rf build/ && tsc",
     "ts": "rm -rf build/ && tsc -w",
-    "dev-1": "nodemon  ./build/1.typeDasar.js",
-    "dev-2": "nodemon  ./build/2.array.js",
-    "dev-3": "nodemon  ./build/3.enum.js",
-    "dev-4": "nodemon  ./build/4.function.js",
-    "dev-5": "nodemon  ./build/5.object.js",
-    "dev-6": "nodemon  ./build/6.oop.js",
-    "dev-7": "nodemon  ./build/7.interface.js",
-    "dev-8": "nodemon  ./build/8.generic.js",
-    "dev-9": "nodemon  ./build/9.genericClass.js"
+    "dev-1": "nodemon  ./build/1-type-dasar.js",
+    "dev-2": "nodemon  ./build/2-array.js",
+    "dev-3": "nodemon  ./build/3-enum.js",
+    "dev-4": "nodemon  ./build/4-function.js",
+    "dev-5": "nodemon  ./build/5-object.js",
+    "dev-6": "nodemon  ./build/6-oop.js",
+    "dev-7": "nodemon  ./build/7-interface.js",
+    "dev-8": "nodemon  ./build/8-generic.js",
+    "dev-9": "nodemon  ./build/9-generic-class.js"
 
   },
   "author": "",

@@ -252,7 +252,7 @@ user = {
 };
 ```
 
-# 6 OOP (`Object Oriented Programming`) pada Typescript
+# 6 Class Dasar pada Typescript
 
 ## Membuat Class dasar dan inisialisasinya
 ```typescript
