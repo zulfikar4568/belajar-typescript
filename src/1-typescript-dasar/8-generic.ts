@@ -1,9 +1,9 @@
 // 1. Masalah pertama
-function getData(value: any) {
+function getData1(value: any) {
   return value;
 }
-console.log(getData("Zul").length);
-console.log(getData(123).length); //tidak error
+console.log(getData1("Zul").length);
+console.log(getData1(123).length); //tidak error
 
 
 /******************************Generic Type********************************/
