@@ -4,23 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsc": "rm -rf build/ && tsc",
-    "ts": "rm -rf build/ && tsc -w",
-    "dev-1": "nodemon  ./build/1-type-dasar.js",
-    "dev-2": "nodemon  ./build/2-array.js",
-    "dev-3": "nodemon  ./build/3-enum.js",
-    "dev-4": "nodemon  ./build/4-function.js",
-    "dev-5": "nodemon  ./build/5-object.js",
-    "dev-6": "nodemon  ./build/6-oop.js",
-    "dev-7": "nodemon  ./build/7-interface.js",
-    "dev-8": "nodemon  ./build/8-generic.js",
-    "dev-9": "nodemon  ./build/9-generic-class.js"
-
+    "dev": "nodemon --config nodemon.json src/index.ts",
+    "dev:debug": "nodemon --config nodemon.json --inspect-brk src/index.ts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.15",
-    "typescript": "^4.5.5"
+    "nodemon": "^2.0.18",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@types/node": "^18.0.0",
+    "ts-node": "^10.8.1"
   }
 }

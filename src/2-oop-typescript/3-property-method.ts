@@ -1,4 +1,4 @@
-class Hewan3 {
+export class Hewan3 {
   //property
   nama: string = "";
   kaki: string = "";
@@ -10,11 +10,12 @@ class Hewan3 {
   }
 }
 
-const hewan3 = new Hewan3;
-console.log(hewan3);
+// CONTOH
+// const hewan3 = new Hewan3;
+// console.log(hewan3);
 
-hewan3.nama = 'Gugug';
-hewan3.kaki = '4';
-console.log(hewan3);
+// hewan3.nama = 'Gugug';
+// hewan3.kaki = '4';
+// console.log(hewan3);
 
-hewan3.bernafas();
+// hewan3.bernafas();

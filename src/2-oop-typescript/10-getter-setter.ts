@@ -1,6 +1,7 @@
-//Di pakai untuk mendapatkan value dan set value
+// Di pakai untuk mendapatkan value dan set value
+// Berlaku jika kita mempunyai property yang private, maka untuk mengambilnya kita gunakan getter dan setetr
 
-class Product {
+export class Product {
   private _price: number = 0;
   private discount: number = 0.05;
 
@@ -15,6 +16,6 @@ class Product {
   }
 }
 
-const baju = new Product();
-baju.price = 8000; //panggil setter
-console.log(baju.price); //panggil getter
+// const baju = new Product();
+// baju.price = 8000; //panggil setter
+// console.log(baju.price); //panggil getter

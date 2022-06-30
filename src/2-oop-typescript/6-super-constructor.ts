@@ -1,4 +1,4 @@
-class Hewan6 {
+export class Hewan6 {
   nama: string;
   kaki: number;
 
@@ -9,7 +9,7 @@ class Hewan6 {
 }
 
 
-class Kuda extends Hewan6 {
+export class Kuda extends Hewan6 {
   tinggi: number;
 
   constructor(tinggi: number, nama: string, kaki: number) {
@@ -18,5 +18,6 @@ class Kuda extends Hewan6 {
   }
 }
 
-const kuda = new Kuda(198, 'jax', 4);
-console.log(kuda);
+// CONTOH - Di sini jika kita meng extend class yang mempunyai parameter constructor maka kita harus memanggilnya dengan super
+// const kuda = new Kuda(198, 'jax', 4);
+// console.log(kuda);

@@ -11,5 +11,5 @@ function genericsFunction<T>(value: T): Generic<T> {
 }
 
 
-console.log(genericsFunction<string>("Testtttt"));
-console.log(genericsFunction<number>(1234));
+// console.log(genericsFunction<string>("Testtttt"));
+// console.log(genericsFunction<number>(1234));

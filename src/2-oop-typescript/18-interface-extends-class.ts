@@ -13,7 +13,7 @@ interface HiuInterface extends Hewan18 {
   swim(): void;
 }
 
-class Hiu implements HiuInterface {
+export class Hiu implements HiuInterface {
   nama: string;
 
   constructor(nama: string) {

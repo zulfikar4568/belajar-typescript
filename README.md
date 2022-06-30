@@ -3,38 +3,22 @@
  <h1 align="center"><b>Typescript Tutorial</b></h1>
 </p>
 
-# Install Typescript
+# Cara menjalankan
 ```bash
-npm --version
-# Install dengan NPM
-npm install typescript nodemon -D
-#atau
-sudo npm install -g typescript
-
-tsc --version
-
-# Install dengan deno di Macbook
-brew install deno
+yarn install
+yarn dev
 ```
+# Gunakan program di `src/index.ts`
+```ts
+import { Hewan3 } from './2-oop-typescript/3-property-method'
 
-# Menjalankan Typescript dengan NPM
-Buka terminal 1
-```bash
-# Compile semua file typescript
-npm run tsc
-```
-Buka terminal 2
-```bash
-# Jalankan per Program
-npm run dev-1
-#s/d
-npm run dev-9
-```
+const kucing = new Hewan3()
 
-# Menjalankan Typescript dengan Deno
-Buka Terminal 1
-```bash
-deno run file-typescript.ts
+kucing.kaki = '4'
+kucing.bernafas()
+kucing.mamalia = true
+
+console.log(kucing)
 ```
 
 # Content

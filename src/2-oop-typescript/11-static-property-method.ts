@@ -1,7 +1,6 @@
+/* Jika kita implementasi property dengan static maka property ini akan berlaku untuk global */
 // Static property dan method bisa di panggil tanpa kita harus menginisialisasi object nya
-
-
-class Ayam {
+export class Ayam {
   static kaki: number = 2;
 
   static jalan() {
@@ -14,19 +13,26 @@ class Ayam {
   }
 }
 
-Ayam.jalan(); // bisa di panggil tanpa inisialisasi object nya
+// CONTOH
 
-const ayam2 = new Ayam();
-ayam2.getKaki();
+// console.log(Ayam.kaki)
+// Ayam.kaki = 4
+// console.log(Ayam.kaki)
+// Ayam.jalan()
 
-const ayam3 = new Ayam();
-const ayam5 = new Ayam();
-const ayam6 = new Ayam();
-const ayam7 = new Ayam();
+// Ayam.jalan(); // bisa di panggil tanpa inisialisasi object nya
 
-Ayam.kaki = 4; // Ini merubah property kaki secara global
+// const ayam2 = new Ayam();
+// ayam2.getKaki();
 
-ayam3.getKaki();
-ayam5.getKaki();
-ayam6.getKaki();
-ayam7.getKaki();
+// const ayam3 = new Ayam();
+// const ayam5 = new Ayam();
+// const ayam6 = new Ayam();
+// const ayam7 = new Ayam();
+
+// Ayam.kaki = 4; // Ini merubah property kaki secara global
+
+// ayam3.getKaki();
+// ayam5.getKaki();
+// ayam6.getKaki();
+// ayam7.getKaki();

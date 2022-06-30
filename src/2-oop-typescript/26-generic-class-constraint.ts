@@ -2,14 +2,14 @@ interface Produk {
   jual(): void;
 }
 
-class ProdukMobil implements Produk {
+export class ProdukMobil implements Produk {
   jual(): void {
     console.log('jual mobil');
   }
 }
 
 
-class ProdukMotor implements Produk {
+export class ProdukMotor implements Produk {
   jual(): void {
     console.log('jual motor');
   }

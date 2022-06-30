@@ -11,7 +11,7 @@ class TokoA {
   }
 }
 
-class ProdukFashion {
+export class ProdukFashion {
   private toko: TokoA;
   private nama: string;
   private harga: number;
@@ -30,10 +30,10 @@ class ProdukFashion {
 }
 
 
-const kaos = new ProdukFashion('baju panjang', 50000);
-kaos.jual();
+// const kaos = new ProdukFashion('baju panjang', 50000);
+// kaos.jual();
 
-//------------------------------
+// ############################################################################################################
 
 interface TokoInterface {
   nama: string;
@@ -41,7 +41,7 @@ interface TokoInterface {
   getKeuntungan(): number;
 }
 
-class TokoLama implements TokoInterface{
+export class TokoLama implements TokoInterface{
   nama: string = 'Toko Lama';
   keuntungan: number = 9000;
 
@@ -54,7 +54,7 @@ class TokoLama implements TokoInterface{
   }
 }
 
-class TokoBaru implements TokoInterface{
+export class TokoBaru implements TokoInterface{
   nama: string = 'Toko Baru';
   keuntungan: number = 2500;
 
@@ -67,7 +67,7 @@ class TokoBaru implements TokoInterface{
   }
 }
 
-class ProdukSepatu {
+export class ProdukSepatu {
   private toko: TokoInterface;
   private nama: string;
   private harga: number;
@@ -85,7 +85,7 @@ class ProdukSepatu {
   }
 }
 
-class ProdukSandal {
+export class ProdukSandal {
   private toko: TokoInterface;
   private nama: string;
   private harga: number;
@@ -104,11 +104,11 @@ class ProdukSandal {
 }
 
 
-const tokoLama = new TokoLama();
-const tokoBaru = new TokoBaru();
+// const tokoLama = new TokoLama();
+// const tokoBaru = new TokoBaru();
 
-const sepatuMahal = new ProdukSepatu(tokoLama, 'baju mahal', 80000);
-const sepatuMahal2 = new ProdukSepatu(tokoBaru, 'baju mahal', 80000);
+// const sepatuMahal = new ProdukSepatu(tokoLama, 'baju mahal', 80000);
+// const sepatuMahal2 = new ProdukSepatu(tokoBaru, 'baju mahal', 80000);
 
-console.log(sepatuMahal.jual());
-console.log(sepatuMahal2.jual());
+// console.log(sepatuMahal.jual());
+// console.log(sepatuMahal2.jual());

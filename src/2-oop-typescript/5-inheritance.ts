@@ -1,4 +1,4 @@
-class Hewan5 {
+export class Hewan5 {
   nama: string = "";
   kaki: number = 0;
 
@@ -7,11 +7,15 @@ class Hewan5 {
   }
 }
 
-class Gajah extends Hewan5 {
+export class Gajah extends Hewan5 {
   warna: string = 'hitam';
 }
 
-const gajah4 = new Gajah();
-gajah4.nama = "ABI";
-gajah4.kaki = 4;
-console.log(gajah4);
+// const akib = new Gajah()
+// akib.warna = 'hijau'
+// akib.bernafas()
+
+// const ucok = new Hewan5()
+// Ini tidak bisa karena sebagai parent tidak punya warna
+// ucok.warna = 'red'
+// console.log(ucok)

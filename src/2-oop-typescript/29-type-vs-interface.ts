@@ -3,7 +3,6 @@ type UserType = {
   nama: string;
 }
 
-
 interface UserInterface {
   nama: string;
 }

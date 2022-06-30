@@ -1,4 +1,5 @@
-//Interface adalah sebuah perjanjian atau Kontrak dimana semua property atau method yang sudah disepakati di dalam class itu harus diimplementasi kepada class yang menggunakan interface tersebut
+/* Interface adalah sebuah perjanjian atau Kontrak dimana semua property atau method yang sudah disepakati 
+di dalam class itu harus diimplementasi kepada class yang menggunakan interface tersebut */
 
 interface AndroidPhone {
   nama: string;
@@ -8,7 +9,7 @@ interface AndroidPhone {
 }
 
 
-class Samsung implements AndroidPhone {
+export class Samsung implements AndroidPhone {
   nama: string;
 
   constructor(nama: string) {
@@ -27,7 +28,7 @@ class Samsung implements AndroidPhone {
 }
 
 
-class Vivo implements AndroidPhone {
+export class Vivo implements AndroidPhone {
   nama: string;
 
   constructor(nama: string) {
@@ -45,7 +46,7 @@ class Vivo implements AndroidPhone {
   }
 }
 
-class GameA {
+export class GameA {
   private phone: AndroidPhone;
 
   constructor(phone: AndroidPhone){
@@ -73,12 +74,12 @@ gameA.back();
 gameA.menu();
 // ----------------- iPhone
 
-interface ApplePhone {
+export interface ApplePhone {
   home(): void;
 }
 
 
-class iPhone implements ApplePhone {
+export class iPhone implements ApplePhone {
   nama: string;
 
   constructor(nama: string){
@@ -90,5 +91,5 @@ class iPhone implements ApplePhone {
   }
 }
 
-const iphoneA = new iPhone('Iphone13');
+// const iphoneA = new iPhone('Iphone13');
 // const gameB = new GameA(iphoneA); // Akan error, karna game ini hanya bisa di gunakan pada android

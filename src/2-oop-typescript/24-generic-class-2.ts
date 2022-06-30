@@ -1,8 +1,8 @@
-class ClassA {
+export class ClassA {
   name: string = 'Class A';
 }
 
-class ClassBaru<T> {
+export class ClassBaru<T> {
   classProp: T;
 
   constructor(classProp: T) {
@@ -10,5 +10,6 @@ class ClassBaru<T> {
   }
 }
 
-const classA = new ClassA();
-const classBaru = new ClassBaru(classA);
+// const classA = new ClassA();
+// const classBaru = new ClassBaru(classA);
+// console.log(classBaru)

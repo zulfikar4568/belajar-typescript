@@ -1,4 +1,4 @@
-interface Guru {
+export interface Guru {
   nama: string;
   umur: number;
   // ini optional
@@ -6,4 +6,4 @@ interface Guru {
 }
 
 
-let guru: Guru = {nama: 'zul', umur: 23};
+// let guru: Guru = {nama: 'zul', umur: 23};

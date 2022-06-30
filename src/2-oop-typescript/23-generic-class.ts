@@ -1,11 +1,11 @@
-interface Generic3<T, T2> {
+export interface Generic3<T, T2> {
   propA: T,
   methodA(): T
   propB: T2,
   methodB(): T2
 }
 
-class GenericClass<T, T2> implements Generic3<T, T2> {
+export class GenericClass<T, T2> implements Generic3<T, T2> {
   propA: T;
   propB: T2;
 
@@ -24,6 +24,6 @@ class GenericClass<T, T2> implements Generic3<T, T2> {
 }
 
 
-const genericClassA = new GenericClass<number, string>(123, "huruf");
-console.log(genericClassA.methodA());
-console.log(genericClassA.methodB());
+// const genericClassA = new GenericClass<number, string>(123, "huruf");
+// console.log(genericClassA.methodA());
+// console.log(genericClassA.methodB());
