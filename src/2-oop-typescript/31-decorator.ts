@@ -6,7 +6,6 @@ function Logger(logString: string) {
     // console.log(p.name)
     console.log(constructor)
     console.log(constructor.prototype)
-    
   }
 }
 
