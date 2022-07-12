@@ -23,6 +23,8 @@ console.log(kucing)
 
 # Content
 #### [Typescript Dasar](./TypescriptDasar.md) <br/>
-#### [Typescript OOP](./src/2-oop-typescript/)
+#### [Typescript OOP](./src/2-oop-typescript/) </br>
+
+#### [SOLID Principle](./SOLID.md)
 
 ### © M. Zulfikar Isnaen, License [MIT](LICENSE)
